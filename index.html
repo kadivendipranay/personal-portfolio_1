@@ -6,6 +6,11 @@
     <meta name="description" content="This is a web page i am creating to learn HTML by building by personal website">
     <title>Pranay Kumar- My Personal Website</title>
     <link rel="icon" href="html5.png" type="image/x-icon">
+    <style>
+        table, th, td{
+            border:1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Pranay Kumar</h1>
@@ -44,7 +49,48 @@
         Minor in process management<br>
         Thesis in modeling and analysis of process efficiency in a cement plan
     </dl>
-    <h4>Grades/marks</h4>
+    <h4>Grader/marks</h4>
+    <table>
+        <caption>marks and grade information</caption>
+        <thead>
+            <tr>
+                <th>School / University</th>
+                <th>Class / Degree</th>
+                <th>Marks / CGPA</th>
+                <th>Year</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ABC School</td>
+                <td>High School</td>
+                <td>89%</td>
+                <td>2014</td>
+                <td rowspan="2">Lucknow, India</td>
+            </tr>
+            <tr>
+                <td>XYZ School</td>
+                <td>Intermediate</td>
+                <td>86%</td>
+                <td>2016</td>
+            </tr>
+            <tr>
+                <td>Alpha College</td>
+                <td>B.Tech</td>
+                <td>72%</td>
+                <td>2020</td>
+                <td>New Delhi, India</td>
+            </tr>
+            <tr>
+                <td colspan="2">Full Stack Bootcamp- Odian School</td>
+                <td>88%</td>
+                <td>2024</td>
+                <td>Online</td>
+            </tr>
+        </tbody>
+    </table>
+    
     <h4>Contact Information</h4>
     <p>pranay@gmail.com</p>
     <p>+91-9014394212</p>
