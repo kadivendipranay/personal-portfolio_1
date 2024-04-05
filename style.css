@@ -1,0 +1,22 @@
+
+
+body{
+    background-color: #eeeeee;  
+}
+hr{
+    /*background-color: blue;*/
+    border-style: dotted none none none ;
+    border-width:10px;
+    height: 2px;
+}
+h1{
+    color:#00ADB5;
+}
+h2{
+    color:#223334ee;
+}
+h3{
+    color:#00ADB5;
+}h4{
+    color:#00ADB5;
+}
